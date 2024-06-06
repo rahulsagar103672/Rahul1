@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="enter password"
+        android:inputType="numberPassword"
         tools:layout_editor_absoluteX="46dp"
         tools:layout_editor_absoluteY="173dp" />
 
