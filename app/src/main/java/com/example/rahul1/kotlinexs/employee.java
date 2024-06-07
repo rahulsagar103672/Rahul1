@@ -2,15 +2,19 @@ package com.example.rahul1.kotlinexs;
 
 
 
+
+
 /**
  * POJO - plain old java object / VO value object / model class -- box with partitionns
  */
-public class Student {
+public class Employee {
     String name;
     int age;
     String postalAddress;
 
-    public Student(String name, int age, String postalAddress) {
+    public Employee(String name, int age, String postalAddress) {
+        Student vitStudent = new Student("abhay",321,"vit");
+        System.out.println("employee is getting created"+ vitStudent.name);
         this.name = name;
         this.age = age;
         this.postalAddress = postalAddress;
@@ -40,3 +44,4 @@ public class Student {
         this.postalAddress = postalAddress;
     }
 }
+
