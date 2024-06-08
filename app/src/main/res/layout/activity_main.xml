@@ -50,6 +50,9 @@
         app:layout_constraintStart_toStartOf="@+id/editTextTextPassword"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
+    <!--
+    sp = scale independent pixels
+-->
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
