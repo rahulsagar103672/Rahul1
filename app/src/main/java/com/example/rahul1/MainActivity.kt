@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         //inflate this xml
         setContentView(R.layout.activity_main)
+        var name:String =  "rahul"
         Log.i(TAG,"activity is getting created")
         // inflateXml()
 
