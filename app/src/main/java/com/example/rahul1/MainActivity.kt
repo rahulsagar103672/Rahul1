@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
         startActivity(dialIntent)
 
         var hIntent:Intent = Intent(this,HomeActivity::class.java)
+        hIntent.putExtra("mykey","android-vit-rahul")
         startActivity(hIntent)
     }
 }
