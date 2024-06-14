@@ -23,5 +23,8 @@ class MainActivity : AppCompatActivity() {
         Log.i("MainActivity-clickhandler","button clicked")
         var dialIntent: Intent = Intent(Intent.ACTION_DIAL, Uri.parse("tel:98765432"))  //intent= intention
         startActivity(dialIntent)
+
+        var hIntent:Intent = Intent(this,HomeActivity::class.java)
+        startActivity(hIntent)
     }
 }
